@@ -1,0 +1,8 @@
+name: "markdown-citibike"
+output_dir: docs
+navbar:
+  title: "markdown-citibike"
+  left:
+    - text: "Base"
+      href: index.html
+
