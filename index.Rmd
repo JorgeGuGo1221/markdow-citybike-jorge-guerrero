@@ -6,7 +6,8 @@ title: "Markdown-citibike"
 #library(ploty)
 
 library(readr)
-citibike_tripdata <- read_csv("citibike-tripdata.csv")
+
+citibike_tripdata <- read_csv("https://firebasestorage.googleapis.com/v0/b/citybike-jorge-guerrero.appspot.com/o/citibike-tripdata.csv?alt=media&token=71d9642e-6fb6-47ac-8ed5-694dbdec01ac")
 #View(citibike_tripdata)
 
 base_fin<- head(citibike_tripdata,1000)
